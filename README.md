@@ -1,5 +1,6 @@
 # Sky Soarer
-<img width="1080" height="2340" alt="Screenshot_20260716_073851_Gallery" src="https://github.com/user-attachments/assets/5b00d1e1-e8af-4f9e-97f1-328fa251a835" />
+<img width="1080" height="784" alt="Screenshot_20260716_073851_Gallery" src="https://github.com/user-attachments/assets/917d8cb8-8065-4882-aa4b-68da280d7cf6" />
+
 
 
 A very easy to build rc airplane that requires minimal effort and funds. However this project does require some knowledge of electronics and aerodynamics. :)
