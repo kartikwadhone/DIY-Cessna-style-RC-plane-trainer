@@ -51,6 +51,11 @@ Print all STL files using:
 ## 2. Assemble the Airframe
 
 Cut and Glue the parts together.
+When glueing the sides to the bottom make sure they follow this diagram:
+<img width="653" height="350" alt="image" src="https://github.com/user-attachments/assets/7abc19fc-b13a-4617-bfba-3aa17f9f507a" />
+<img width="593" height="337" alt="image" src="https://github.com/user-attachments/assets/da69fe3d-e631-4f11-a70d-10818cfaea37" />
+
+
 
 
 ---
