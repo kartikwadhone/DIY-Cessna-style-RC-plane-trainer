@@ -11,7 +11,7 @@ A very easy to build rc airplane that requires minimal effort and funds. However
 
 **Flight Video:** 
 https://youtube.com/shorts/hdI_K4hGbNI?si=ZF_V9rFV4TuXbcLE
-
+**Strobe Lights:**
 https://www.youtube.com/shorts/_2fsilVLzS8
 #  Quick Start
 
