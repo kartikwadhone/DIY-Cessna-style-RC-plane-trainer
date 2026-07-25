@@ -47,7 +47,7 @@ Print all STL files using:
 - Infill: 20%
 - Supports: Organic auto generated
 - Perimeters: 3
-- 
+  
 ## 2. Assemble the Airframe
 
 Cut and Glue the parts together.
