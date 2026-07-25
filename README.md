@@ -33,22 +33,6 @@ To build this RC plane:
 - Under 800g (Depends on configuration)
 - Highly Stable
 - Good Vertical Climb ability
-- Optional Landing Gear (With Front Suspention!!)
-
----
-
-#  Parts List
-All parts can be bought on Amazon (Buy the 20x30in foam sheet from the dollar store if possible)
-
-| Component | Price |
-|-----------|-------|
-| 1200kv Motor | |
-| 40 a ESC | |
-| 3s 2200mah Battery | |
-| 8x6 inch Propeller | |
-| 4x 9g Micro Servos | |
-| Transmitter & Receiver | |
-
 
 ---
 
@@ -58,45 +42,39 @@ All parts can be bought on Amazon (Buy the 20x30in foam sheet from the dollar st
 
 Print all STL files using:
 
-- Material:
-- Layer Height:
-- Infill:
-- Supports:
-
-(Add print photos here.)
-
----
-
+- Material: PETG
+- Layer Height: 0.2mm
+- Infill: 20%
+- Supports: Organic auto generated
+- Perimeters: 3
+- 
 ## 2. Assemble the Airframe
 
-Describe how the main parts fit together.
+Cut and Glue the parts together.
 
-(Add assembly photos.)
 
 ---
 
 ## 3. Install Electronics
 
-Describe where each electronic component goes.
-
-(Add wiring photos.)
+Install motor in motor mount and connect to the ESC. Then Plug in all 4 servos into the reciver. Lastly plug in the battery into the ESC. Make sure the ESC's BEC is connected in channel 3 to the reciever the provide power to the servos and throttle control.
 
 ---
 
 ## 4. Balance the Plane
 
-Explain where the center of gravity should be.
+Since this is a plane with a rectangular wing, balancing the plane is very easy. Balance the plane so that you can hold it 1/3 of the way back from the wing.
 
 ---
 
 ## 5. Pre-Flight Checklist
 
 - Control surfaces move correctly
-- Battery secured
+- Battery secured so it does not move around in flight
 - Propeller tightened
 - Center of gravity checked
 - Radio connected
-- Range test completed
+
 
 ---
 
@@ -110,94 +88,35 @@ Project/
 ├── CAD/
 ├── STLs/
 ├── Images/
-├── Videos/
-└── Docs/
+├── Build Guide/
+
 ```
-
----
-
-# How It Works
-
-Describe the interesting engineering behind your design.
-
-Some ideas:
-- Why you chose this airfoil
-- Why the wing has its shape
-- Weight-saving techniques
-- How the electronics are mounted
-- Any design challenges you solved
-
----
-
-#  Build Gallery
-
-## CAD Design
-
-(Add image)
-
-## Printed Parts
-
-(Add image)
-
-## Assembly
-
-(Add image)
-
-## Electronics
-
-(Add image)
-
-## Finished Plane
-
-(Add image)
-
-## Flight Photos
-
-(Add image or GIF)
-
----
 
 #  Specifications
 
 | Item | Value |
 |------|-------|
-| Wingspan | |
-| Length | |
-| Weight | |
-| Battery | |
-| Flight Time | |
-| Motor | |
-| Propeller | |
-| Center of Gravity | |
-
----
-
-#  Design Process
-
-Explain:
-
-- Initial concept
-- CAD design
-- Prototyping
-- Testing
-- Improvements
-- Final version
-
+| Wingspan |1M |
+| Length | 75cm|
+| Weight | ~800g|
+| Battery | 2200mah 3s Lipo|
+| Flight Time | 15-20 mins|
+| Motor | 2122 1200 kv 3s brushless DC motor|
+| Propeller | 8x6 in|
 ---
 
 #  Lessons Learned
 
-- Lesson 1
-- Lesson 2
-- Lesson 3
+- Chose the right battery. As batteries get bigger flights time benifits usually decline
+- The center of gravity is the most importand pre flight check to do
 
 ---
 
 #  Future Improvements
 
-- Improvement 1
-- Improvement 2
-- Improvement 3
+- Automatic wind stabilization
+- Retractable landing gear
+- Lights that can be toggled on and off
 
 ---
 
