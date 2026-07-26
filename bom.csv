@@ -11,7 +11,6 @@ Pushrods,Control System,2,"1.2–1.5 mm Steel",Adjustable Pushrods,4.00,"Control
 Control Horns,Control System,3,Plastic,Nylon Horn Set,3.00,"Elevator, Rudder, Ailerons"
 Receiver,Radio System,1,"Compatible with transmitter",FlySky Receiver,18.00,"Depends on radio"
 Transmitter,Radio System,1,"6+ Channels",FlySky FS-i6X,60.00,"Required unless already owned"
-Carbon Fiber Rod,Structure,2,"3 × 1000 mm",Carbon Rod,8.00,"Wing spars"
 M3 Screws,Hardware,10,"Various lengths",Steel Socket Head,3.00,"Motor mount and assembly"
 M3 Lock Nuts,Hardware,10,"Nylon Insert",Steel,2.00,"Prevent loosening"
 Velcro Battery Strap,Hardware,2,"20 × 300 mm",Hook-and-Loop Strap,4.00,"Secure battery"
@@ -22,4 +21,9 @@ XT60 Connectors,Electrical,2,"Male/Female Pair",Amass XT60,3.00,"Battery connect
 Hot Glue Sticks,Consumables,20,"Mini or Standard","High Temp",5.00,"Assembly"
 Packing Tape,Consumables,1,"Clear, Heavy Duty",Packing Tape,3.00,"Reinforcement"
 Duct Tape,Consumables,1,Optional,"Duct or Vinyl Tape",5.00,"Orientation and decoration"
-
+Y Servo Harness,Control System,1,"1 Male to 2 Female JR Servo Splitter",Standard Y-Harness,3.00,"Used to connect two servos to one receiver channel"
+Servo Extension Cable,Control System,2,"200 mm JR Extension",JR Servo Extension,2.00,"Extends servo wires for wing-mounted servos"
+200 Ω Resistor,Electronics,6,"200 Ω, 1/4 W, ±5%",Carbon Film Resistor,0.10,"Current limiting resistor for RGB LEDs"
+Arduino Nano,Electronics,1,"ATmega328P, USB Mini-B",Arduino Nano V3 Compatible,8.00,"Microcontroller for custom flight controller or lighting"
+RGB LED,Electronics,6,"5 mm Common Cathode RGB LED",Diffused RGB LED,0.50,"Navigation lights or status indicators"
+26 AWG Hook-Up Wire,Electronics,4,"26 AWG, Silicone Insulated, Roll",26 AWG Silicone Wire,5.00,"General-purpose wiring for electronics"
