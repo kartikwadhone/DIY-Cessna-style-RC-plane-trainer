@@ -1,0 +1,59 @@
+// Aircraft Lights
+
+const int WHITE_R = 2;
+const int WHITE_G = 3;
+const int WHITE_B = 4;
+
+const int RED_NAV = 5;
+const int GREEN_NAV = 6;
+
+const int flashTime = 40;
+const int flashGap = 70;
+const int cyclePause = 800;
+
+void setup() {
+  pinMode(WHITE_R, OUTPUT);
+  pinMode(WHITE_G, OUTPUT);
+  pinMode(WHITE_B, OUTPUT);
+
+  pinMode(RED_NAV, OUTPUT);
+  pinMode(GREEN_NAV, OUTPUT);
+
+  // Navigation lights stay on
+  digitalWrite(RED_NAV, HIGH);
+  digitalWrite(GREEN_NAV, HIGH);
+
+  // Strobe starts off
+  digitalWrite(WHITE_R, LOW);
+  digitalWrite(WHITE_G, LOW);
+  digitalWrite(WHITE_B, LOW);
+}
+
+void strobeOn() {
+  digitalWrite(WHITE_R, HIGH);
+  digitalWrite(WHITE_G, HIGH);
+  digitalWrite(WHITE_B, HIGH);
+}
+
+void strobeOff() {
+  digitalWrite(WHITE_R, LOW);
+  digitalWrite(WHITE_G, LOW);
+  digitalWrite(WHITE_B, LOW);
+}
+
+void loop() {
+  // First flash
+  strobeOn();
+  delay(flashTime);
+  strobeOff();
+
+  delay(flashGap);
+
+  // Second flash
+  strobeOn();
+  delay(flashTime);
+  strobeOff();
+
+  // Pause before repeating
+  delay(cyclePause);
+}
