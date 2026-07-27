@@ -62,7 +62,7 @@ When glueing the sides to the bottom make sure they follow this diagram:
 
 ## 3. Install Electronics
 
-Install motor in motor mount and connect to the ESC. Then Plug in all 4 servos into the reciver. Lastly plug in the battery into the ESC. Make sure the ESC's BEC is connected in channel 3 to the reciever the provide power to the servos and throttle control.
+Install motor in motor mount and connect to the ESC. Then Plug in all 4 servos into the reciever. Lastly plug in the battery into the ESC. Make sure the ESC's BEC is connected in channel 3 to the reciever the provide power to the servos and throttle control.
 
 ---
 
@@ -86,14 +86,14 @@ Since this is a plane with a rectangular wing, balancing the plane is very easy.
 #  Repository Structure
 
 ```
-Project/
-│
 ├── README.md
 ├── LICENSE
+├── bom.csv
+├── Build Guide.pdf
+│
+├── Blueprints/
 ├── CAD/
-├── STLs/
-├── Images/
-├── Build Guide/
+├── Code/
 
 ```
 
