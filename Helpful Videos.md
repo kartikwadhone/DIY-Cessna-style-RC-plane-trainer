@@ -1,0 +1,1 @@
+[RC electronics for Noobs-Sam Shepard](https://www.youtube.com/watch?v=j61Q3e8AFR4)
